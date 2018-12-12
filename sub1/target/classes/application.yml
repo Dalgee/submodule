@@ -1,0 +1,7 @@
+spring.application.name: zuul
+server.port: 8090
+
+zuul:
+  routes:
+    path: /route/**
+    url:

@@ -8,21 +8,10 @@ public class MerongTest {
 
 
     @Test(expected = NullPointerException.class)
-    public int getHome1() {
-        Merong merong = new Merong();
-
-        return merong.getHome();
-    }
-
-    @Test
-    public void getHome2() {
+    public void getHome1() {
         Merong merong = new Merong();
 
 
-        int val = merong.getHome();
-
-
-        assert val > 0;
+        System.out.println(merong.getHome());
     }
-
 }

@@ -23,7 +23,7 @@ public class Main {
 class Merong {
 
     public int getHome() {
-        String name = "merong";
+        String name = null;
 
         return name.length();
     }
